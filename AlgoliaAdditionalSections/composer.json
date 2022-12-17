@@ -1,0 +1,22 @@
+{
+    "name": "develo/module-algoliaadditionalsections",
+    "description": "To allow custom values to be indexed into Algolia's additional_sections data for brands",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Develo\\AlgoliaAdditionalSections\\": ""
+        }
+    }
+}

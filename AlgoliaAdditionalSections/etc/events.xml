@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="algolia_additional_section_items_before_index">
+		<observer name="develo_algoliaadditionalsections_observer_algolia_additionalsectionitemsbeforeindex_algolia_additional_section_items_before_index" instance="Develo\AlgoliaAdditionalSections\Observer\Algolia\AdditionalSectionItemsBeforeIndex"/>
+	</event>
+	<event name="algolia_after_create_product_object">
+		<observer name="develo_algoliaadditionalsections_observer_algolia_aftercreateproductobject_algolia_after_create_product_object" instance="Develo\AlgoliaAdditionalSections\Observer\Algolia\AfterCreateProductObject"/>
+	</event>
+</config>
